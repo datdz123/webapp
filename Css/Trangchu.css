@@ -1,0 +1,33 @@
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffffff;
+}
+
+/* Hiệu ứng hover nổi lên */
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.bg-column{
+    background :transparent;
+    height: 400px;
+
+}
+
+.custom-button.btn-block {
+    width: auto !important;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.bg-hover:hover{
+    /*background-color: rgba(34, 45, 60, 0.7);*/
+}
+.banner {
+    background-image: url('../Assets/banner.jpeg') !important;
+    height: 100vh;
+    z-index: 2;
+    background-size: cover;
+}
